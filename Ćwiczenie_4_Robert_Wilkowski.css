@@ -1,0 +1,76 @@
+:root {
+
+/* Colors: */
+--unnamed-color-646464: #646464;
+--unnamed-color-272727: #272727;
+--unnamed-color-d32d2d: #D32D2D;
+--unnamed-color-efefef: #EFEFEF;
+--unnamed-color-707070: #707070;
+--unnamed-color-d0caca: #D0CACA;
+--unnamed-color-ffffff: #FFFFFF;
+
+/* Font/text values */
+--unnamed-font-family-neue-haas-grotesk-display-pro: Neue Haas Grotesk Display Pro;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-medium: medium;
+--unnamed-font-weight-bold: bold;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-size-21: 21px;
+--unnamed-font-size-25: 25px;
+--unnamed-font-size-80: 80px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-character-spacing-0-21: 0.21px;
+--unnamed-character-spacing-0-63: 0.63px;
+--unnamed-character-spacing-0-8: 0.8px;
+--unnamed-line-spacing-31: 31px;
+--unnamed-line-spacing-96: 96px;
+--unnamed-text-transform-titlecase: titlecase;
+}
+
+/* Character Styles */
+.title {
+font-family: var(--unnamed-font-family-neue-haas-grotesk-display-pro);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-80);
+line-height: var(--unnamed-line-spacing-96);
+letter-spacing: var(--unnamed-character-spacing-0-8);
+color: var(--unnamed-color-272727);
+text-transform: var(--unnamed-text-transform-titlecase);
+}
+.unnamed-character-style-1 {
+font-family: var(--unnamed-font-family-neue-haas-grotesk-display-pro);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-21);
+line-height: var(--unnamed-line-spacing-31);
+letter-spacing: var(--unnamed-character-spacing-0-21);
+color: var(--unnamed-color-707070);
+}
+.przycisk {
+font-family: var(--unnamed-font-family-neue-haas-grotesk-display-pro);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-21);
+line-height: var(--unnamed-line-spacing-31);
+letter-spacing: var(--unnamed-character-spacing-0-63);
+color: var(--unnamed-color-ffffff);
+}
+.text {
+font-family: var(--unnamed-font-family-neue-haas-grotesk-display-pro);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-25);
+line-height: var(--unnamed-line-spacing-31);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-efefef);
+}
+.unnamed-character-style-2 {
+font-family: var(--unnamed-font-family-neue-haas-grotesk-display-pro);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-21);
+line-height: var(--unnamed-line-spacing-31);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-efefef);
+}

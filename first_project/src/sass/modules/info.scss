@@ -1,0 +1,48 @@
+@use 'config' as *;
+
+.info{
+
+  &__header{
+    margin: 50px 227px 0 227px;
+    font-size: 2rem;
+    border-bottom: 3px solid $secondarycolor;
+
+    &-name{
+      margin: 10px;
+    }
+
+    &-picture{
+      width: 90%;
+      height: 200px;
+    }
+
+    &-text{
+      margin: 0 45px 0 0;
+      padding: 0;
+    }
+  }
+
+  &__contact{
+    &-text{
+      margin: 0 0 60px 0;
+    }
+  }
+
+  &__jobHistory{
+
+    h1{
+      font-size: 5rem;
+      margin: 50px 10px 0 70px;
+    }
+
+    &-text{
+      padding: 0 120px 0 0;
+      margin: 20px 10px 0 70px;
+    }
+
+    &-picture{
+      width: 700px;
+      height: 400px;
+    }
+  }
+}
