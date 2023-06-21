@@ -1,0 +1,43 @@
+@use 'config' as *;
+
+.background{
+  background: $primarycolor;
+  color: $secondaryColor;
+}
+
+.topHeader{
+  font-size: 1.5rem;
+  border-bottom: 2px solid $secondaryColor;
+  margin: 0 5% 0 5%;
+
+  &__list{
+    list-style: none;
+    padding: 0;
+
+    &-photo {
+      width: 300px;
+      height: 200px;
+      border-radius: 10%;
+    }
+
+    &__item {
+      margin: 0 0 0 30px;
+    }
+  }
+
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__name{
+    margin: 0 0 15px 0;
+  }
+}
+
+.topMain{
+  
+}
